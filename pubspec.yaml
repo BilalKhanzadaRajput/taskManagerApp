@@ -1,0 +1,45 @@
+name: task_manager_app
+description: "Task Manager App - Flutter Technical Assessment"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.5
+  dio: ^5.4.0
+  retrofit: ^4.0.3
+  json_annotation: ^4.8.1
+  go_router: ^13.0.0
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  freezed_annotation: ^3.1.0
+  json_serializable: ^6.7.1
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.1.0
+  injectable: ^2.4.0
+  get_it: ^7.6.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.7
+  freezed: ^3.2.3
+  retrofit_generator: ^10.2.1
+  injectable_generator: ^2.6.0
+  json_serializable: ^6.7.1
+  mockito: ^5.4.4
+  bloc_test: ^10.0.0
+
+flutter:
+  uses-material-design: true
