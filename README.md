@@ -27,7 +27,7 @@ A Flutter application for managing tasks, built as a technical assessment. The a
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/yourusername/task_manager_app.git
    cd task_manager_app
    ```
 
@@ -56,16 +56,6 @@ A Flutter application for managing tasks, built as a technical assessment. The a
 For testing the login functionality, you can use any valid credentials from DummyJSON. Example:
 - Username: `kminchelle`
 - Password: `0lelplR`
-
-### Running Tests
-
-```bash
-# Run all tests
-flutter test
-
-# Run tests with coverage
-flutter test --coverage
-```
 
 ## Architectural Decisions
 
@@ -485,17 +475,6 @@ This generates:
 - **utils/**: Presentation utilities (theme, text styles, error messages)
 - **widgets/**: Reusable UI components
 
-## Testing
-
-Unit tests are included for:
-- AuthBloc state transitions
-- TaskBloc CRUD operations
-- Repository logic structure
-
-Run tests with:
-```bash
-flutter test
-```
 
 ## License
 
@@ -504,4 +483,3 @@ This project is created for technical assessment purposes.
 ## Author
 
 Built as a Flutter technical assessment demonstrating Clean Architecture, BLoC pattern, and modern Flutter development practices.
-# taskManagerApp
